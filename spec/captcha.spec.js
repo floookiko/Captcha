@@ -105,4 +105,7 @@ describe("Captcha()",function() {
   it('Should Show "SEVEN - 2" ',function(){
 		expect(captcha.combine(2,2,7,2)).toBe("SEVEN - 2");
 	});
+  it('Should Show "SIX - 4" ',function(){
+		expect(captcha.combine(2,2,6,4)).toBe("SIX - 4");
+	});
 });

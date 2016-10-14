@@ -57,5 +57,7 @@ describe("Captcha()",function() {
   it('Should Show "5 + FOUR" ',function(){
     expect(captcha.combine(1,1,5,4)).toBe("5 + FOUR");
   });
-  
+  it('Should Show "1 + NINE" ',function(){
+    expect(captcha.combine(1,1,1,9)).tobe("1 + NINE");
+  });
 });

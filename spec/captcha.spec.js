@@ -87,4 +87,7 @@ describe("Captcha()",function() {
   it('Should Show "TWO + 3" ',function(){
 		expect(captcha.combine(2,1,2,3)).toBe("TWO + 3");
 	});
+  it('Should Show "FOUR + 5" ',function(){
+		expect(captcha.combine(2,1,4,5)).toBe("FOUR + 5");
+	});
 });

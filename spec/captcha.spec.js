@@ -102,4 +102,7 @@ describe("Captcha()",function() {
   it('Should Show "EIGHT - 1" ',function(){
 		expect(captcha.combine(2,2,8,1)).toBe("EIGHT - 1");
 	});
+  it('Should Show "SEVEN - 2" ',function(){
+		expect(captcha.combine(2,2,7,2)).toBe("SEVEN - 2");
+	});
 });

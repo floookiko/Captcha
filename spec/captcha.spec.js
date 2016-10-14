@@ -72,4 +72,7 @@ describe("Captcha()",function() {
   it('Should Show "8 - TWO" ',function(){
 		expect(captcha.combine(1,2,8,2)).toBe("8 - TWO");
 	});
+  it('Should Show "7 - THREE" ',function(){
+		expect(captcha.combine(1,2,7,3)).toBe("7 - THREE");
+	});
 });

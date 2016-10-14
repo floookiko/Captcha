@@ -78,4 +78,7 @@ describe("Captcha()",function() {
   it('Should Show "6 - ONE" ',function(){
 		expect(captcha.combine(1,2,6,1)).toBe("6 - ONE");
 	});
+  it('Should Show "4 - FIVE" ',function(){
+		expect(captcha.combine(1,2,4,5)).toBe("4 - FIVE");
+	});
 });

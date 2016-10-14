@@ -69,4 +69,7 @@ describe("Captcha()",function() {
   it('Should Show "9 - ZERO" ',function(){
 		expect(captcha.combine(1,2,9,0)).toBe("9 - ZERO");
 	});
+  it('Should Show "8 - TWO" ',function(){
+		expect(captcha.combine(1,2,8,2)).toBe("8 - TWO");
+	});
 });

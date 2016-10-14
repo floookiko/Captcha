@@ -51,11 +51,8 @@ function Captcha(pattern, Operand, LeftLocation, RightLocation){
 
 describe("Captcha()",function() {
 	var captcha = new Captcha();
-	it('Should Show "1 + TWO" ',function(){
-		expect(captcha.combine(1,1,1,3)).toBe("1 + THREE");
+  it('Should Show "3 + SEVEN" ',function(){
+		expect(captcha.combine(1,1,3,7)).toBe("3 + SEVEN");
 	});
 
-	it('should Show "ONE - 1" ',function(){
-		expect(captcha.combine(2,2,1,1)).toBe("ONE - 1");
-	});
 });

@@ -96,4 +96,7 @@ describe("Captcha()",function() {
   it('Should Show "EIGHT + 9" ',function(){
 		expect(captcha.combine(2,1,8,9)).toBe("EIGHT + 9");
 	});
+  it('Should Show "NINE - 0" ',function(){
+		expect(captcha.combine(2,2,9,0)).toBe("NINE - 0");
+	});
 });

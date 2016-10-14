@@ -63,4 +63,7 @@ describe("Captcha()",function() {
   it('Should Show "2 + EIGHT" ',function(){
 		expect(captcha.combine(1,1,2,8)).toBe("2 + EIGHT");
 	});
+  it('Should Show "6 + TEN" ',function(){
+		expect(captcha.combine(1,1,6,0)).toBe("6 + ZERO");
+	});
 });

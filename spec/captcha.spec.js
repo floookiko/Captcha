@@ -108,4 +108,7 @@ describe("Captcha()",function() {
   it('Should Show "SIX - 4" ',function(){
 		expect(captcha.combine(2,2,6,4)).toBe("SIX - 4");
 	});
+  it('Should Show "THREE - 5" ',function(){
+		expect(captcha.combine(2,2,3,5)).toBe("THREE - 5");
+	});
 });

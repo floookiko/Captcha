@@ -84,4 +84,7 @@ describe("Captcha()",function() {
   it('Should Show "ZERO + 1" ',function(){
 		expect(captcha.combine(2,1,0,1)).toBe("ZERO + 1");
 	});
+  it('Should Show "TWO + 3" ',function(){
+		expect(captcha.combine(2,1,2,3)).toBe("TWO + 3");
+	});
 });

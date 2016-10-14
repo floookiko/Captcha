@@ -75,4 +75,7 @@ describe("Captcha()",function() {
   it('Should Show "7 - THREE" ',function(){
 		expect(captcha.combine(1,2,7,3)).toBe("7 - THREE");
 	});
+  it('Should Show "6 - ONE" ',function(){
+		expect(captcha.combine(1,2,6,1)).toBe("6 - ONE");
+	});
 });

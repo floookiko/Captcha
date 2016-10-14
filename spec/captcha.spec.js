@@ -58,6 +58,9 @@ describe("Captcha()",function() {
     expect(captcha.combine(1,1,5,4)).toBe("5 + FOUR");
   });
   it('Should Show "1 + NINE" ',function(){
-    expect(captcha.combine(1,1,1,9)).tobe("1 + NINE");
+    expect(captcha.combine(1,1,1,9)).toBe("1 + NINE");
   });
+  it('Should Show "2 + EIGHT" ',function(){
+		expect(captcha.combine(1,1,2,8)).toBe("2 + EIGHT");
+	});
 });

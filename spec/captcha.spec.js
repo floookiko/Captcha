@@ -90,4 +90,7 @@ describe("Captcha()",function() {
   it('Should Show "FOUR + 5" ',function(){
 		expect(captcha.combine(2,1,4,5)).toBe("FOUR + 5");
 	});
+  it('Should Show "SIX + 7" ',function(){
+		expect(captcha.combine(2,1,6,7)).toBe("SIX + 7");
+	});
 });

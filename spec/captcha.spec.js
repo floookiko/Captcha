@@ -1,6 +1,6 @@
 
 var num = [0,1,2,3,4,5,6,7,8,9];
-var word = ["ZERO","ONE","TWO","THREE","FOUR","FIVE","SIX","SEVEN","EIGHT","NINE","TEN"];
+var word = ["ZERO","ONE","TWO","THREE","FOUR","FIVE","SIX","SEVEN","EIGHT","NINE"];
 var operator = [1,2];
 
 function NumberPattern(location){
